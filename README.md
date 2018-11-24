@@ -12,3 +12,17 @@ That's why I wrote this little tool, it allows you to start an exe task with win
 
 ## What is needed:
 A Linux Distro with Wine and pgrep (a standard Linux tool).
+
+## Create with:
+    cd ~/Wine-Task-Watcher/src/
+    qmake && make
+  
+## Parameters for Wine Task Watcher:
+Wine-Task-Watcher [32 or 64] 'Path to the executable file'
+### Example 1:
+    ./Wine-Task-Watcher 32 '/home/USERNAME/.wine/dosdevices/c:/Program Files (x86)/Internet Explorer/iexplore.exe'
+### Example 2:
+    ./Wine-Task-Watcher 32 '/home/USERNAME/.wine/dosdevices/c:/Program Files (x86)/Windows NT/Accessories/wordpad.exe'
+### Example 3:
+    ./Wine-Task-Watcher 64 '/home/USERNAME/DATA-POOL/Games/World of Warcraft/Wow.exe'
+  
