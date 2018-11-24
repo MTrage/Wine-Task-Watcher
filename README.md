@@ -8,3 +8,7 @@ Who does not know how to start WOW (Agent.exe) or Steam PC and after closing the
 This is of course annoying as they can take up a lot of system resources.
 
 That's why I wrote this little tool, it allows you to start an exe task with wine or wine64 and after finishing this task you can see if everything that requires CPU load is finished.
+
+
+## What is needed:
+A Linux Distro with Wine and pgrep (a standard Linux tool).
