@@ -25,4 +25,13 @@ Wine-Task-Watcher [32 or 64] 'Path to the executable file'
     ./Wine-Task-Watcher 32 '/home/USERNAME/.wine/dosdevices/c:/Program Files (x86)/Windows NT/Accessories/wordpad.exe'
 ### Example 3:
     ./Wine-Task-Watcher 64 '/home/USERNAME/DATA-POOL/Games/World of Warcraft/Wow.exe'
-  
+
+### After closing the Wine task, the information window with the following information, for example, is briefly displayed. 
+![Screenshot A](https://github.com/MTrage/Wine-Task-Watcher/blob/master/screenshot/close_a.png)
+
+### If everything could be closed successfully, the info window will look like this after a few seconds.
+![Screenshot B](https://github.com/MTrage/Wine-Task-Watcher/blob/master/screenshot/close_b.png)
+
+If the task is still open, you could write a small SH script for yourself, for example, which will always be terminated if it is still active after the end of the task.
+
+I hope that this little tool is a help for you, have fun with it.
