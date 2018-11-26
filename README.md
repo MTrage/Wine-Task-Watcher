@@ -18,7 +18,7 @@ A Linux Distro with Wine and pgrep (a standard Linux tool).
     qmake && make
   
 ## Parameters for Wine Task Watcher:
-Wine-Task-Watcher [32 or 64] 'Path to the executable file'
+Wine-Task-Watcher [```32``` or ```64```] ```'Path to the executable file'```
 #### Example 1:
     ./Wine-Task-Watcher 32 '/home/USERNAME/.wine/dosdevices/c:/Program Files (x86)/Internet Explorer/iexplore.exe'
 #### Example 2:
