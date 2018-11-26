@@ -25,6 +25,15 @@ Wine-Task-Watcher [32 or 64] 'Path to the executable file'
     ./Wine-Task-Watcher 32 '/home/USERNAME/.wine/dosdevices/c:/Program Files (x86)/Windows NT/Accessories/wordpad.exe'
 #### Example 3:
     ./Wine-Task-Watcher 64 '/home/USERNAME/DATA-POOL/Games/World of Warcraft/Wow.exe'
+    
+## Creating a launcher or a shortcut
+Of course a start via a launcher or shortcut is also possible.
+Here is an example for Flash 8:
+
+        Wine-Task-Watcher 64 /home/USERNAME/.wine/dosdevices/c:/Program\ Files\ \(x86\)/Macromedia/Flash\ 8/Flash.exe
+
+here you can specify the normal path to the program.
+
 
 #### After closing the Wine task, the information window with the following information, for example, is briefly displayed. 
 ![Screenshot A](https://github.com/MTrage/Wine-Task-Watcher/blob/master/screenshot/close_a.png)
